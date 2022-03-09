@@ -1,2 +1,2 @@
 #!/bin/bash
-$ find .vim/ -maxdepth -type d | wc -l
+echo $PATH | tr : "\n" | wc -l
